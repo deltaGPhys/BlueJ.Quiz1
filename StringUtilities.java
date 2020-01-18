@@ -40,7 +40,7 @@ public class StringUtilities {
      */
     public String removeCharacter(String value, Character charToRemove) {
         
-        return value.replaceAll(charToRemove.toString(),"");
+        return value.replace(charToRemove.toString(),"");
     }
 
     /**
